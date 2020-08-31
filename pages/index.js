@@ -11,40 +11,36 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://namebase.io">Buy.HNS.Domainnames!</a>
+         <a href="https://namebase.io">Buy.HNS.Domainnames</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
+     
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://handshake.org/" className={styles.card}>
+            <h3>Handshake</h3>
+            <p>Decentralized naming</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.namebase.io/" className={styles.card}>
+            <h3>Namebase</h3>
+            <p>Own your name on the new Internet</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://hnsbroker.com"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>HNSBroker</h3>
+            <p>Buy and Selling HNS Domainnames</p>
+          </a>
+
+          <a
+            href="https://hns.to/"
+            className={styles.card}
+          >
+            <h3>HNS.TO</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              The gateway to Handshake domains.
             </p>
           </a>
         </div>
@@ -52,7 +48,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://hnsbroker.com"
           target="_blank"
           rel="noopener noreferrer"
         >
